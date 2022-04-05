@@ -1,6 +1,6 @@
 import * as UserRepository from './user.repository'
 import { getRepository } from 'typeorm'
-import { mocked } from 'ts-jest/utils'
+import { mocked } from 'jest-mock'
 import {
   generateUsersData,
   generateUserPayload,
